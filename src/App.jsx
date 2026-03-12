@@ -81,7 +81,7 @@ const Tag = ({mono=false, children, color=C.muted, bg=C.surf2}) => (
 );
 
 // ════════════════════════════════════════════════════════════
-export default function TalentRadar() {
+export default function App() {
   const [screen, setScreen]     = useState("input");
   const [cv, setCv]             = useState({ base64:"", name:"" });
   const [cand, setCand]         = useState({
